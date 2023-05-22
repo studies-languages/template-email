@@ -5,52 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="Content-Type" content="text/html charset=UTF-8" /> -->
   <title>Document</title>
 </head>
 
 <body style="
-    font-family: Arial, Helvetica, sans-serif; 
-    background-color: rgb(244 244 245); 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-    flex-direction: column;
-    height: 100vh;
-    ">
-  <div style="
-      background-color: #0071bf; 
-      height: 12em;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      ">
+  margin: 0; padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e7eb;
+  ">
 
-    <img src="https://app.movicare.aplicativodeservicos.com.br/uploads/16445239661339316392.png" alt="img-email"
-      width="150" height="150" style="border-radius: 5px;" />
-  </div>
-  <div 
-    style="
-    
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  <div style="background-color: #0071bf; height: 13em; width: 100%;">
+    <div style="
+      width:100px;
+      margin: auto;
       
-    ">
-    <div 
-      style="
-        background-color: white;
-        width:fit-content;
-        height: fit-content;
-        padding: 20px;
-        border-radius: 5px;
-        margin-top: 4em;
-
       ">
+      <img src="https://app.movicare.aplicativodeservicos.com.br/uploads/16445239661339316392.png" alt="img-email"
+        style="
+        border-radius: 5px;
+        width: 10em;
+        margin-top:1.5em;
+        " />
+    </div>
+  </div>
+  <div style="height: 100%;">
+    <div style="
+          background-color: white;
+          padding: 20px;
+          border-radius: 5px;
+          width: 70%;
+          margin: 4em auto;
+        ">
       <h1>Senha Nova</h1>
       Você solicitou a troca da sua senha de acesso no Movicare.<br><br>
 
-      Alteramos sua senha para <strong>{{$vars["new_password"] }}</strong><br><br>
+      Alteramos sua senha para <b>{{$vars["new_password"] }}</b><br><br>
 
       Da próxima vez que acessar o sistema não se esqueça de alterar a senha. <br><br>
 
@@ -58,7 +48,6 @@
         Equipe Movicare.
       </small>
     </div>
-
   </div>
 </body>
 
